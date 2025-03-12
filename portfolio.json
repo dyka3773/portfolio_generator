@@ -66,16 +66,16 @@
       ],
       "images": [
         {
+          "img_path": "img/rocket-group-photo.jpg",
+          "caption": "All the experimenters and researchers involved in the launch of the DROPSTAR experiment."
+        },
+        {
           "img_path": "img/operations-room.jpg",
           "caption": "The operations room for the launch of the DROPSTAR experiment."
         },
         {
           "img_path": "img/nasa-spaceapps-presentation.jpg",
           "caption": "Presenting BEAM and Space Technology at the NASA Space Apps Challenge 2022."
-        },
-        {
-          "img_path": "img/rocket-group-photo.jpg",
-          "caption": "A group photo of all the experimenters and researchers involved in the Rocket launch of the DROPSTAR experiment."
         }
       ]
     },
