@@ -1,224 +1,190 @@
 {
-  "name": "Your Name",
-  "label": "Optional Label",
-  "image_path": "img/default-image.png",
+  "name": "Hercules Konsoulas",
+  "label": "Software Engineer",
+  "image_path": "img/Herck smallest.jpg",
   "contact": {
-    "email": "FirstLast@Sample.com",
-    "phone": "123-456-7890",
-    "location": "City, State, Country"
+    "email": "dyka3773@gmail.com",
+    "phone": "+30 6978515275",
+    "location": "Bonn, NRW, Germany"
   },
-  "summary": "A short summary of who you are, your background, experience, and interests to give visitors a quick introduction to you.",
+  "summary": "A dedicated Web Developer with experience in maintaining and enhancing complex JavaEE-based applications, complemented by a strong background in technical documentation and client consultation. Passionate about software engineering and mentoring, with a proven track record in academic projects and space technology initiatives.",
   "base_url": "127.0.0.1:5500",
   "social_links": [
     {
       "label": "Personal Website",
-      "url": "https://sample.com",
+      "url": "https://dyka3773.github.io/",
       "svg_path": "img/globe.svg"
     },
     {
-      "label": "First Social",
-      "url": "https://sample.com",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/iraklis-konsoulas/",
       "svg_path": "img/linkedin.svg"
     },
     {
-      "label": "Second Social",
-      "url": "https://sample.com",
+      "label": "Github",
+      "url": "https://github.com/dyka3773",
       "svg_path": "img/github.svg"
     }
   ],
   "work_experience": [
     {
-      "company": "Latest Job",
-      "position": "Position One",
-      "url": "https://sample.com",
-      "start_date": "01/01/2020",
+      "company": "European Dynamics",
+      "position": "Full Stack Java Web Developer",
+      "url": "https://www.eurodyn.com/",
+      "start_date": "04/10/2022",
       "end_date": "Present",
-      "summary": "Short summary about present job and what the position entails",
+      "summary": "",
       "highlights": [
-        "First Duty of Current Job",
-        "Second Duty of Current Job",
-        "Third Duty of Current Job"
+        "Developed and maintained a web application written in JavaEE and Spring, which is used by the European Commission.",
+        "Invented and implemented several tools and scripts for database management and data migration using Python, Kafka, and Oracle.",
+        "Wrote technical and business documentation for the web application and the tools, as well as user manuals for the end-users."
       ]
     },
     {
-      "company": "Previous Job",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous job and what that position entailed",
+      "company": "i-pins.net",
+      "position": "Website Maintainer",
+      "url": "https://i-pins.net/index.html",
+      "start_date": "2016",
+      "end_date": "2018",
+      "summary": "",
       "highlights": [
-        "First Duty of Previous Job",
-        "Second Duty of Previous Job",
-        "Third Duty of Previous Job"
+        "Maintained and updated the website of the company, which was built using Joomla and the Helix framework."
       ]
     }
   ],
   "projects": [
     {
-      "title": "My First Project",
-      "summary": "Short summary about my first project",
-      "url": "https://sample.com",
+      "title": "BEAM Research Group",
+      "summary": "A research group backed by the Aristotle University of Thessaloniki, focusing on the development and invention of space technology.",
+      "url": "https://beamproject.gr",
       "highlights": [
-        "First Highlight of Project One",
-        "Second Highlight of Project One",
-        "Third Highlight of Project One"
+        "Developed a monitoring and real-time data visualization tool for the ground station of the ECOWISE experiment, using Python and Pandas.",
+        "Lead the software subteam for the creation of a web application for the real-time visualization of the data collected by the DROPSTAR experiment, using Python, Flask and asyncio.",
+        "Designed and implemented the embedded software and serial communication for the DROPSTAR experiment, which was deployed on a Nvidia Jetson Nano, using Python, asyncio, pyserial and various proprietary libraries.",
+        "Designed and supported the development of the website of the research group, using WordPress and Elementor.",
+        "Lead multiple workshops and lectures on Python programming and space technology."
       ],
       "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=1",
-          "caption": "Image Caption 1"
+          "img_path": "img/operations-room.jpg",
+          "caption": "The operations room for the launch of the DROPSTAR experiment."
         },
         {
-          "img_path": "https://picsum.photos/600/338?random=2",
-          "caption": "Image Caption 2"
+          "img_path": "img/nasa-spaceapps-presentation.jpg",
+          "caption": "Presenting BEAM and Space Technology at the NASA Space Apps Challenge 2022."
         },
         {
-          "img_path": "https://picsum.photos/600/338?random=3",
-          "caption": "Image Caption 3"
+          "img_path": "img/rocket-group-photo.jpg",
+          "caption": "A group photo of all the experimenters and researchers involved in the Rocket launch of the DROPSTAR experiment."
         }
       ]
     },
     {
-      "title": "My Second Project",
-      "summary": "Short summary about my second project",
-      "url": "https://sample.com",
-      "highlights": [
-        "First Highlight of Project Two",
-        "Second Highlight of Project Two",
-        "Third Highlight of Project Two"
-      ],
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=4",
-          "caption": "Image Caption 4"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=5",
-          "caption": "Image Caption 5"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=6",
-          "caption": "Image Caption 6"
-        }
-      ]
+      "title": "Flock",
+      "summary": "A mass email sending tool, designed to be used by small businesses and organizations.",
+      "url": "",
+      "highlights": ["Designed and developed the back-end of the application in ASP.NET Core, using C# and MariaDB."]
     }
   ],
   "volunteer_experience": [
     {
-      "organization": "Latest Organization",
-      "position": "Position One",
-      "url": "https://sample.com",
+      "organization": "Umbrella",
+      "position": "Programming Tutor",
+      "url": "",
       "start_date": "01/01/2020",
-      "end_date": "Present",
-      "summary": "Short summary about present volunteer work",
+      "end_date": "01/06/2020",
+      "summary": "A university volunteer group that offers free programming lessons to weaker students.",
       "highlights": [
-        "First Duty of Current Organization",
-        "Second Duty of Current Organization",
-        "Third Duty of Current Organization"
-      ]
-    },
-    {
-      "organization": "Previous Organization",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous volunteer work",
-      "highlights": [
-        "First Duty of Previous Organization",
-        "Second Duty of Previous Organization",
-        "Third Duty of Previous Organization"
+        "Taught Python programming to first-year students.",
+        "Taught Java programming to electrical engineering students."
       ]
     }
   ],
   "education": [
     {
-      "institution": "Institution One",
-      "location": "Institution One Location",
-      "url": "https://sample.com",
+      "institution": "International Hellenic University",
+      "location": "Thessaloniki, Greece",
+      "url": "https://www.ihu.edu.gr/",
       "degrees": [
-        "Master of Science in Computer Science",
-        "Minor in Mathematics"
+        "Bachelor of Informatics Engineering"
       ],
-      "honors": ["Outstanding Student Award", "Dean's List"],
-      "gpa_cumulative": "3.5",
-      "gpa_major": "4.0",
-      "graduation_date": "01/01/2005"
+      "gpa_cumulative": "7.53 /10",
+      "graduation_date": "01/09/2025"
     },
     {
-      "institution": "Institution Two",
-      "location": "Institution Two Location",
-      "url": "https://sample.com",
-      "degrees": ["Bachelor of Science in Physics"],
-      "honors": ["Scholarship Recipient"],
-      "gpa_cumulative": "3.2",
-      "gpa_major": "3.9",
-      "graduation_date": "01/01/2000"
+      "institution": "University of Porto",
+      "location": "Erasmus+ Exchange Student",
+      "url": "https://www.up.pt/portal/en/",
+      "degrees": ["Masters of Informatics Engineering"],
+      "gpa_cumulative": "18.5 /20"
     }
   ],
   "skills": [
     {
-      "name": "My First Skill",
+      "name": "Python, Java, Oracle SQL, Git",
       "proficiency": 100,
-      "proficiency_label": "Proficiency Level"
+      "proficiency_label": "Expert"
     },
     {
-      "name": "My Second Skill",
-      "proficiency": 80,
-      "proficiency_label": "Proficiency Level"
+      "name": "Flask, Spring, Pandas, Kafka, JMS",
+      "proficiency": 90,
+      "proficiency_label": "Advanced"
+    },
+    {
+      "name": "asyncio, JavaScript, Hibernate, Selenium, Node.js",
+      "proficiency": 75,
+      "proficiency_label": "Comfortable"
+    },
+    {
+      "name": "bash, Docker, Jenkins, jQuery, PowerShell, PHP",
+      "proficiency": 60,
+      "proficiency_label": "Familiar"
     }
   ],
   "interests": [
     {
-      "name": "My First Hobby",
-      "summary": "Short summary about my first Hobby",
+      "name": "Escape Rooms",
+      "summary": "I love solving puzzles and riddles",
       "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=7",
-          "caption": "Image Caption 7"
+          "img_path": "img/escape-the-vault.jpg",
+          "caption": "My most recent escape room in Amsterdam."
         },
         {
-          "img_path": "https://picsum.photos/600/338?random=8",
-          "caption": "Image Caption 8"
+          "img_path": "img/counttown.jpg",
+          "caption": "My first escape room in my favorite escape room company - Counttown."
         }
       ]
     },
     {
-      "name": "My Second Hobby",
-      "summary": "Short summary about my second hobby",
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=9",
-          "caption": "Image Caption 9"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=10",
-          "caption": "Image Caption 10"
-        }
-      ]
+      "name": "Bass Guitar & Music In General",
+      "summary": "I love playing the bass guitar and listening to (mostly metal) music.",
+      "images": []
+    },
+    {
+      "name": "Travelling",
+      "summary": "I love travelling and exploring new places.",
+      "images": []
     }
   ],
   "languages": [
     {
-      "language": "English",
+      "language": "Greek",
       "fluency": "Native speaker"
     },
     {
-      "language": "American Sign Language",
-      "fluency": "Professional Working Proficiency"
+      "language": "English",
+      "fluency": "Full professional proficiency (C2)"
+    },
+    {
+      "language": "German",
+      "fluency": "Limited working proficiency (B2 but currently studying)"
+    },
+    {
+      "language": "Portuguese",
+      "fluency": "Elementary proficiency (A2)"
     }
   ],
   "references": [
-    {
-      "name": "Person One",
-      "relation": "Previous Boss",
-      "reference": "Some nice things that Person One said about you, your work ethic, and how you provided value to their team."
-    },
-    {
-      "name": "Person Two",
-      "relation": "Previous Coworker",
-      "reference": "More kind things that Person Two said about you, what it was like working with you, and things you've accomplished."
-    }
   ]
 }

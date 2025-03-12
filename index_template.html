@@ -242,10 +242,9 @@
                       {% for hon in edu.honors %}<li>{{ hon }}</li>{% endfor %}
                     </ul>
                   {% endif %}
-                  {% if edu.gpa_major or edu.gpa_cumulative or edu.graduation_date %}
+                  {% if edu.gpa_cumulative or edu.graduation_date %}
                     <p>
-                      {% if edu.gpa_major %}<span class="block">GPA in Major: {{ edu.gpa_major }}</span>{% endif %}
-                      {% if edu.gpa_cumulative %}<span class="block">Cumulative GPA: {{ edu.gpa_cumulative }}</span>{% endif %}
+                      {% if edu.gpa_cumulative %}<span class="block">Degree Grade: {{ edu.gpa_cumulative }}</span>{% endif %}
                       {% if edu.graduation_date %}<span class="block">Graduation Date: {{ edu.graduation_date }}</span>{% endif %}
                     </p>
                   {% endif %}
