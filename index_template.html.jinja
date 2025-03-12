@@ -209,6 +209,11 @@
 
       <!-- Sidebar Section -->
       <aside>
+        <section class="header-info">
+          <h2 class="section-heading">Currently Listening to:</h2>
+          <img class="flex-responsive" src="https://spotify-github-profile.kittinanx.com/api/view?uid=dyka3773&cover_image=true&theme=novatorem&show_offline=true&bar_color_cover=true" alt="Now Playing" width="256" height="128">
+        </section>
+
         {% if education %}
         <section>
           <h2 class="section-heading">Education</h2>
@@ -237,7 +242,7 @@
             {% if edu.gpa_cumulative or edu.graduation_date %}
             <p>
               {% if edu.gpa_cumulative %}<span class="block">Degree Grade: {{ edu.gpa_cumulative }}</span>{% endif %}
-              {% if edu.graduation_date %}<span class="block">Graduation Date: {{ edu.graduation_date }}</span>{% endif
+              {% if edu.graduation_date %}<span class="block">Graduation Year: {{ edu.graduation_date }}</span>{% endif
               %}
             </p>
             {% endif %}
