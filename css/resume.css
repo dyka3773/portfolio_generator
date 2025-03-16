@@ -4,7 +4,7 @@
 }
 
 html {
-  font-size: 11pt;
+  font-size: 10pt;
 }
 
 a[href]::after {
@@ -36,11 +36,13 @@ footer {
 main {
   padding-left: 0.5in;
   padding-bottom: 0.5in;
+  padding-top: 0;
 }
 
 aside {
   padding-right: 0.5in;
   padding-bottom: 0.5in;
+  padding-top: 0;
 }
 
 .page-header,
@@ -84,6 +86,16 @@ aside h6 {
   font-size: 1rem;
 }
 
+header {
+  padding-bottom: 1.5rem;
+}
+
+.flex-responsive {
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: left;
+}
+
 .page-content .container {
   grid-template-columns: 2fr 1fr;
 }
@@ -92,13 +104,35 @@ aside h6 {
   gap: 2rem;
 }
 
+.header-image {
+  max-width: 192px;
+}
+
+.header-info {
+  margin-top: 0.5rem;
+}
+
+.section-heading {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1rem;
+  padding-top: 1.5rem;
+}
+
+aside .section-heading {
+  padding-top: 0;
+}
+
+aside > section {
+  padding-top: 1rem;
+}
+
 .page-header ul {
   margin: 0.5rem 0;
 }
 
 .inline-list {
-  flex-direction: row;
-  justify-content: center;
   gap: var(--spacing-inline);
 }
 

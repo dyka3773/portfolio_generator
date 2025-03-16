@@ -35,9 +35,22 @@
       "end_date": "Present",
       "summary": "",
       "highlights": [
-        "Developed and maintained a web application written in JavaEE and Spring, which is used by the European Commission.",
-        "Invented and implemented several tools and scripts for database management and data migration using Python, Kafka, and Oracle.",
+        "Developed, maintained and enhanced a web application written in JavaEE and Spring, which is used by the European Commission and whose tech stack also includes Hibernate, JMS, Kafka, and Oracle.",
+        "Invented and implemented a tool for the automatic generation of a database diff report between two Oracle databases, using Python, Node.js and Oracle.",
+        "Designed the implementation and testing for a tool used for the extraction of avro files saved in an Oracle database, using Python and Oracle.",
+        "Invented several tools and scripts for data migration, port forwarding and automated deployment in local Weblogic servers using Python, Docker and shell scripting (PowerShell and bash).",
         "Wrote technical and business documentation for the web application and the tools, as well as user manuals for the end-users."
+      ]
+    },
+    {
+      "company": "",
+      "position": "High School Informatics Private Tutor",
+      "url": "",
+      "start_date": "10/01/2021",
+      "end_date": "10/06/2022",
+      "summary": "",
+      "highlights": [
+        "Taught programming in Python and Pascal to high school students preparing for the university entrance exams."
       ]
     },
     {
@@ -97,6 +110,19 @@
       "highlights": [
         "Taught Python programming to first-year students.",
         "Taught Java programming to electrical engineering students."
+      ]
+    },
+    {
+      "organization": "NASA Space Apps Challenge 2022",
+      "position": "Academic Experts Team Member",
+      "url": "https://drive.google.com/file/d/1ZPaii6xxwrr_5E6_4jH4rcZ6D6TEVYZs/view?usp=drive_link",
+      "start_date": "10/05/2022",
+      "end_date": "03/10/2022",
+      "summary": "A global hackathon organized by NASA, focusing on space technology and innovation.",
+      "highlights": [
+        "Was part of the Academics team, which was in charge of bringing mentors and judges from the academia to help the participants.",
+        "Presented BEAM and Space Technology at the event.",
+        "Mentored multiple teams on Python programming, web development and organization of their projects."
       ]
     }
   ],
