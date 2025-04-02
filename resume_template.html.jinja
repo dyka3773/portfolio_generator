@@ -112,9 +112,9 @@
           <section>
             <h3>
               {% if job.url %}
-              {{ job.position }} at <a href="{{ job.url }}">{{ job.company }}</a>
+              {{ job.position }} {{ "at" if job.company }} <a href="{{ job.url }}">{{ job.company }}</a>
               {% else %}
-              {{ job.position }} at {{ job.company }}
+              {{ job.position }}{{ " at {}".format(job.company) if job.company }}
               {% endif %}
             </h3>
             {% if job.start_date and job.end_date %}
