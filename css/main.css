@@ -224,6 +224,11 @@ aside .section-heading::after {
   margin-bottom: 0.5rem;
 }
 
+.location-label {
+  font-size: 0.8rem;
+  color: #000;
+}
+
 /* Images */
 img {
   max-width: 100%;

@@ -4,7 +4,10 @@
   "image_path": "img/Herck smallest.jpg",
   "contact": {
     "email": "dyka3773@gmail.com",
-    "phone": "+30 6978515275",
+    "phone": [
+      "+49 1726340553",
+      "+30 6978515275"
+    ],
     "location": "Bonn, NRW, Germany"
   },
   "summary": "A dedicated Web Developer with experience in maintaining and enhancing complex JavaEE-based applications, complemented by a strong background in technical documentation and client consultation. Passionate about software engineering and mentoring, with a proven track record in academic projects and space technology initiatives.",
@@ -30,6 +33,7 @@
     {
       "company": "European Dynamics",
       "position": "Full Stack Java Web Developer",
+      "location": "Berlin, Germany (Remote)",
       "url": "https://www.eurodyn.com/",
       "start_date": "04/10/2022",
       "end_date": "Present",
@@ -45,6 +49,7 @@
     {
       "company": "",
       "position": "High School Informatics Private Tutor",
+      "location": "Larissa, Greece (Remote)",
       "url": "",
       "start_date": "10/01/2021",
       "end_date": "10/06/2022",
@@ -56,6 +61,7 @@
     {
       "company": "i-pins.net",
       "position": "Website Maintainer",
+      "location": "Thessaloniki, Greece",
       "url": "https://i-pins.net/index.html",
       "start_date": "2016",
       "end_date": "2018",
@@ -106,6 +112,7 @@
       "url": "",
       "start_date": "01/01/2020",
       "end_date": "01/06/2020",
+      "location": "Thessaloniki, Greece",
       "summary": "A university volunteer group that offers free programming lessons to weaker students.",
       "highlights": [
         "Taught Python programming to first-year students.",
@@ -118,6 +125,7 @@
       "url": "https://drive.google.com/file/d/1ZPaii6xxwrr_5E6_4jH4rcZ6D6TEVYZs/view?usp=drive_link",
       "start_date": "10/05/2022",
       "end_date": "03/10/2022",
+      "location": "Thessaloniki, Greece",
       "summary": "A global hackathon organized by NASA, focusing on space technology and innovation.",
       "highlights": [
         "Was part of the Academics team, which was in charge of bringing mentors and judges from the academia to help the participants.",

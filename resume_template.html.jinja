@@ -76,9 +76,11 @@
               </li>
               {% endif %}
               {% if contact.phone %}
-              <li>
-                <a href="tel:+{{ contact.phone | replace('-', '') }}">{{ contact.phone }}</a>
-              </li>
+                {% for num in contact.phone %}             
+                <li>
+                  <a href="tel:+{{ num | replace('-', '') }}">{{ num }}</a>
+                </li>
+                {% endfor %}
               {% endif %}
               {% if contact.location %}<li>{{ contact.location }}</li>{% endif %}
             </ul>
@@ -118,7 +120,7 @@
               {% endif %}
             </h3>
             {% if job.start_date and job.end_date %}
-            <p class="section-label">{{ job.start_date }} - {{ job.end_date }}</p>
+            <p class="section-label">{{ job.start_date }} - {{ job.end_date }}{% if job.location %} | <span class="location-label">{{ job.location }}</span>{% endif %}</p>
             {% endif %}
             {% if job.summary %}<p>{{ job.summary }}</p>{% endif %}
             {% if job.highlights %}
@@ -167,7 +169,7 @@
               {% endif %}
             </h3>
             {% if vol.start_date and vol.end_date %}
-            <p class="section-label">{{ vol.start_date }} - {{ vol.end_date }}</p>
+            <p class="section-label">{{ vol.start_date }} - {{ vol.end_date }}{% if vol.location %} | <span class="location-label">{{ vol.location }}</span>{% endif %}</p>
             {% endif %}
             {% if vol.summary %}<p>{{ vol.summary }}</p>{% endif %}
             {% if vol.highlights %}
