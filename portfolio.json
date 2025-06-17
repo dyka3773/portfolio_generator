@@ -10,7 +10,7 @@
     ],
     "location": "Bonn, Germany"
   },
-  "summary": "A dedicated Web Developer with experience in maintaining and enhancing complex JavaEE-based applications, complemented by a strong background in technical documentation and client consultation. Passionate about software engineering and mentoring, with a proven track record in academic projects and space technology initiatives.",
+  "summary": "A dedicated Web Developer with experience in maintaining and enhancing complex JavaEE and Python based applications, complemented by a strong background in technical documentation and client consultation. Passionate about software engineering and mentoring, with a proven track record in academic projects and space technology initiatives.",
   "base_url": "127.0.0.1:5500",
   "social_links": [
     {
@@ -43,7 +43,8 @@
         "Invented and implemented a tool for the automatic generation of a database diff report between two Oracle databases, using Python, Node.js and Oracle.",
         "Designed the implementation and testing for a tool used for the extraction of avro files saved in an Oracle database, using Python and Oracle.",
         "Invented several tools and scripts for data migration, port forwarding and automated deployment in local Weblogic servers using Python, Docker and shell scripting (PowerShell and bash).",
-        "Wrote technical and business documentation for the web application and the tools, as well as user manuals for the end-users."
+        "Wrote technical and business documentation for the web application and the tools, as well as user manuals for the end-users.",
+        "Maintained and updated a tool for the automatic enrichment of business documents regarding message exchanges, with message examples and technical documentation, using Javascript, Hugo and Webpack."
       ]
     },
     {
@@ -99,10 +100,23 @@
       ]
     },
     {
-      "title": "Flock",
-      "summary": "A mass email sending tool, designed to be used by small businesses and organizations.",
-      "url": "https://github.com/dyka3773/Flock",
-      "highlights": ["Designed and developed the back-end of the application in ASP.NET Core, using C# and MariaDB."]
+      "title": "mvn-tree-visualizer",
+      "summary": "A simple command line tool to generate the visualization of the dependency tree of a Maven project in a graphical format.",
+      "url": "https://github.com/dyka3773/mvn-tree-visualizer",
+      "highlights": ["Developed and published a command line tool in Python that visualizes the dependency tree of a Maven project in a graphical format, using Python and mermaid.js."]
+    },
+    {
+      "title": "WebText2SQL",
+      "summary": "A web app that allows users to formulate SQL queries using natural language.",
+      "url": "https://github.com/dyka3773/WebText2SQL",
+      "highlights": [
+        "The app offers a user-friendly interface (similar to any modern prompt client) for users to input natural language queries against a database of their choice.",
+        "It allows users to select, insert and delete database connections, and supports SSH tunneling for secure connections.",
+        "Uses OpenAI's GPT-4o-mini model to convert natural language queries into SQL queries, which are then executed against the selected database.",
+        "Manages its own user authentication and authorization system, allowing users to create accounts and manage their connections.",
+        "Supports multiple DBMS, including PostgreSQL, MySQL, and MariaDB.",
+        "The project's tech stack included among others Python, FastAPI, Chainlit, OpenAI's GPT-4o-mini model, PostgreSQL, MySQL, SQLAlchemy, Pydantic, and Docker."        
+      ]
     }
   ],
   "volunteer_experience": [
@@ -117,7 +131,8 @@
       "highlights": [
         "Taught Python programming to first-year students.",
         "Taught Java programming to electrical engineering students."
-      ]
+      ],
+      "sidebar_highlights": [ "Python & Java Tutoring"]
     },
     {
       "organization": "NASA Space Apps Challenge 2022",
@@ -131,6 +146,10 @@
         "Was part of the Academics team, which was in charge of bringing mentors and judges from the academia to help the participants.",
         "Presented BEAM and Space Technology at the event.",
         "Mentored multiple teams on Python programming, web development and organization of their projects."
+      ],
+      "sidebar_highlights": [
+        "In charge of bringing mentors and judges from the academia",
+        "Team mentoring on Python and project management"
       ]
     }
   ],
@@ -155,22 +174,22 @@
   ],
   "skills": [
     {
-      "name": "Python, Java, Oracle SQL, Git",
+      "name": "Python, Java, Oracle SQL, Git, Kafka, asyncio",
       "proficiency": 100,
       "proficiency_label": "Expert"
     },
     {
-      "name": "Flask, Spring, Pandas, Kafka, JMS",
+      "name": "Flask, FastAPI, Spring, JMS, PostgreSQL, Chainlit",
       "proficiency": 90,
       "proficiency_label": "Advanced"
     },
     {
-      "name": "asyncio, JavaScript, Hibernate, Selenium, Node.js",
+      "name": "JavaScript, Hibernate, Selenium, Node.js, Docker, MySQL, Spring-Quartz",
       "proficiency": 75,
       "proficiency_label": "Comfortable"
     },
     {
-      "name": "bash, Docker, Jenkins, jQuery, PowerShell, PHP",
+      "name": "bash, Jenkins, jQuery, PowerShell, PHP",
       "proficiency": 60,
       "proficiency_label": "Familiar"
     }
