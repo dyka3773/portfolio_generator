@@ -101,9 +101,11 @@
     },
     {
       "title": "mvn-tree-visualizer",
-      "summary": "A simple command line tool to generate the visualization of the dependency tree of a Maven project in a graphical format.",
+      "summary": "A simple command-line tool to visualize the dependency tree of a Maven project in a graphical and interactive format.",
       "url": "https://github.com/dyka3773/mvn-tree-visualizer",
-      "highlights": ["Developed and published a command line tool in Python that visualizes the dependency tree of a Maven project in a graphical format, using Python and mermaid.js."]
+      "highlights": ["Developed and published a command line tool in Python that visualizes the dependency tree of a Maven project in a graphical format, using Python and mermaid.js.",
+      "Currently has over 2000 downloads on PyPI and is used by multiple developers in the Java community."
+    ]
     },
     {
       "title": "WebText2SQL",
@@ -239,5 +241,10 @@
     }
   ],
   "references": [
+    {
+      "name": "Christos Rizos",
+      "relation": "Former Team Leader at European Dynamics",
+      "reference": "Hercules Konsoulas consistently demonstrated exceptional professionalism, technical excellence, and a proactive mindset. His deep expertise in Java and related frameworks, combined with his problem-solving abilities and collaborative spirit, made him an invaluable member of our team. I wholeheartedly recommend him for any role demanding top-tier engineering talent."
+    }
   ]
 }
